@@ -1,0 +1,29 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "MysqlConn": {
+    "Url": "server=127.0.0.1;port=3306;database=suirui_outdoor_1_1;user id=root;password=123456"
+  },
+  "InspectData": {
+    "BaseUrl": "http://localhost:8070",
+    "BaseFilePath": "F://InspectData",
+    "BackPath": "E://Back//ValueBackUp.XML"
+  },
+  "Detect": {
+    "Url": "http://localhost:5059"
+  },
+  "Rabbit": {
+    "HostName": "81.70.91.63",
+    "UserName": "guest",
+    "Password": "guest"
+  },
+  "App": {
+    "AppID": "RobotServer",
+    "AppCode": "RobotServer-001"
+  }
+}
